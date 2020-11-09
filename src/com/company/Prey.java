@@ -12,9 +12,9 @@ public class Prey {
     Hearing hearing;
     Vision vision;
 
-    public void flee(){}
-    public void mate(){}
-    public void eat(){}
-    public void drink(){}
+    public void flee(Predator predator){}
+    public void mate(Prey prey){}
+    public void eat(Plant plant){}
+    public void drink(WaterSpot waterSpot){}
     public void move(){}
 }

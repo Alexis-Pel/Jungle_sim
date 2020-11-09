@@ -12,9 +12,9 @@ public class Predator {
     Smelling smelling;
     Vision vision;
 
-    public void hunt(){}
-    public void mate(){}
-    public void eat(){}
-    public void drink(){}
+    public void hunt(Prey prey){}
+    public void mate(Predator predator){}
+    public void eat(Prey prey){}
+    public void drink(WaterSpot waterSpot){}
     public void move(){}
 }
